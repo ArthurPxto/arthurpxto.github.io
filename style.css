@@ -1,0 +1,24 @@
+ body{
+    font-family: 'Fira Code';
+    font-variant-ligatures: true;
+ }
+
+
+.label{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align:  initial;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    margin: 10000px;
+    padding: 10000px;
+    text-align:  right;
+}
