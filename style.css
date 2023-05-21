@@ -1,16 +1,36 @@
  body{
-    font-family: 'Fira Code';
+    font-family: 'Fira Code Light';
     font-variant-ligatures: true;
  }
 
+ #descricao{
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #2493cb;
+    margin: 0px;
+    top: 100px; 
+    bottom: 10000px;
+    padding: 0;
+    text-align:  initial;
+}
 
 .label{
-    font-size: 1.5em;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #f40505;
+    margin: 0;
+    padding: 0;
+    text-align:  initial;
+}
+
+#contatos{
+    font-size: 1em;
     font-weight: bold;
     color: #000;
     margin: 0;
     padding: 0;
     text-align:  initial;
+    padding-top: 100%;
 }
 
 .contatos{
@@ -18,7 +38,26 @@
     flex-direction: column;
     justify-content: right;
     align-items: end;
-    margin: 10000px;
-    padding: 10000px;
+    margin-block-end: 0px;
+    padding: 0px;
     text-align:  right;
+}
+
+.title{
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #000;
+    margin-left: 100px;
+    padding: 0;
+    text-align:   100px;
+}
+
+#foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin-top: 0px;
+    margin-left: 100px;
+    padding: 0;
+    box-align:  center;
 }
